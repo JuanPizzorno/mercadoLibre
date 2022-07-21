@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+footer{
+    background-color: #ebebeb;
+    text-align: center;
+    width: vw 90%;
+}
+
+.pie{
+    font-size: 1rem;
+    margin: 0.5rem;
+    
+}

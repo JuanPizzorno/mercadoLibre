@@ -1,0 +1,85 @@
+@import url('footer.css');
+@import url('header.css');
+
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+main{
+    text-align: center;
+    width: vw 90%;
+    background-color: #ebebeb;
+}
+
+.imagen {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+
+.titulo {
+    font-size: 24px;
+}
+
+.producto {
+    display: block;
+    margin: 10px;
+}
+
+.precio{
+    font-size: 1.125rem;
+}
+
+.descuento{
+    font-size: 1rem;
+    color: #39b54a;
+}
+
+.descripcion{
+    display: none;
+}
+
+.fa-truck{
+    
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;      
+        
+}
+
+.producto ul{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .descripcion{
+        font-size: 1.5rem;
+    }
+
+    .precio{
+        font-size: 1.7rem;
+    }
+    
+    .descuento{
+        font-size: 1.5rem;
+        
+    }
+    
+
+
+}
